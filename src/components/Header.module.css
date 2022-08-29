@@ -1,0 +1,33 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
+
+.header {
+    grid-area: h;
+    background-color: #24D1F8;
+    display: flex;
+    flex-direction: row;
+}
+
+.header img {
+    width: 40px;
+    padding: 12px;
+}
+
+.name{
+margin-top: 10px;
+margin-bottom: 25px;
+font-family: 'Glory', sans-serif;
+font-size: 35px;
+color: #FFF2FE;
+}
+
+.title{
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5px;
+margin-bottom: 25px;
+font-family: 'Qwitcher Grypen', cursive;
+font-size: 40px;
+color: white;
+}
