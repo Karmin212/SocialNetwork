@@ -1,0 +1,23 @@
+﻿.ad img {
+    Width: 195px;
+    Height: 195px;
+}
+
+.ad {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    Height: 195px;
+}
+
+.d {
+    background-color: #FFF2FE;
+    margin-left: 100px;
+    Width: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+

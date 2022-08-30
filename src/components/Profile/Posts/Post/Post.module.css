@@ -1,0 +1,29 @@
+﻿.post {
+    margin-bottom: 35px;
+    width: 1260px;
+}
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.item img {
+    height: 82px;
+    width: 82px;
+    margin-right: 49px;
+    border-radius: 100px;
+}
+
+.text {
+    border: 3px solid #F8DDF5;
+    width: 100%;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.like {
+    margin-left:98%;
+    color:red;
+}

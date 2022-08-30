@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
 
 .app-wrapper {
     display: grid;
@@ -12,11 +12,3 @@
     grid-column-gap: 16px;
 }
 
-.button {
-    background-color: #24D1F8;
-    color: white;
-    border: 0px;
-    width: 150px;
-    height: 40px;
-    font-size: 20px;
-}
