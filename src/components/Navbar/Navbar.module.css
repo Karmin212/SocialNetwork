@@ -10,22 +10,3 @@
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 20px;
 }
-
-.item {
-    border: 1px solid #F8DDF5;
-    text-align: center;
-    margin: 5px;
-}
-
-.settings {
-    margin-top: auto;
-}
-
-.a:hover {
-    color: white;
-    background-color: #24D1F8;
-}
-
-a:active {
-    color: #24D1F8;
-}

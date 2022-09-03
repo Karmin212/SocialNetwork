@@ -1,24 +1,16 @@
 ﻿import React from 'react';
+import AppSettings from './Item/AppSettings';
 import style from './Navbar.module.css';
+import Item from './Item/Item'
 
 const Navbar = () => {
     return (
         <nav className={style.nav}>
-            <div className={`${style.item} ${style.a}`}>
-                <a>Profile</a>
-            </div>
-            <div className={`${style.item} ${style.a}`}>
-                <a>News</a>
-            </div>
-            <div className={`${style.item} ${style.a}`}>
-                <a>Subscriptions</a>
-            </div>
-            <div className={`${style.item} ${style.a}`}>
-                <a>Messages</a>
-            </div>
-            <div className={`${style.item} ${style.settings} ${style.a}`}>
-                <a>Settings</a>
-            </div>
+        <Item text='Profile'/>
+        <Item text='News'/>
+        <Item text='Subscriptions'/>
+        <Item text='Messages'/>
+        <AppSettings />
         </nav>
     )
 }
