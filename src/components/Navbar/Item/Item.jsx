@@ -3,7 +3,7 @@ import style from './Item.module.css';
 
 const Item = (props) => {
     return (<div className={`${style.item} ${style.a}`}>
-        <a>{props.text}</a>
+        <a href={props.link}>{props.text}</a>
         </div>
     )
 }

@@ -9,7 +9,7 @@ const Posts = () => {
                     My posts
                 </div>
                 <div className={style.adnew}>
-                    <textarea maxlength="40000" placeholder="Type anything..."></textarea>
+                    <textarea maxLength="40000" placeholder="Type anything..."></textarea>
                 </div>
                 <button className={style.button}>Send</button>
                 <div className={style.content}>

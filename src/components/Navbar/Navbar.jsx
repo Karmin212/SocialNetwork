@@ -6,10 +6,10 @@ import Item from './Item/Item'
 const Navbar = () => {
     return (
         <nav className={style.nav}>
-        <Item text='Profile'/>
-        <Item text='News'/>
-        <Item text='Subscriptions'/>
-        <Item text='Messages'/>
+        <Item text='Profile' link='/profile'/>
+        <Item text='News' link='/news'/>
+        <Item text='Subscriptions' link='/sub'/>
+        <Item text='Messages' link='/dialogs'/>
         <AppSettings />
         </nav>
     )

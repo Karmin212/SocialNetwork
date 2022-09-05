@@ -4,12 +4,17 @@
     margin: 5px;
 }
 
+.a {
+    text-decoration: none;
+}
+
 .a:hover {
     color: white;
     background-color: #24D1F8;
     cursor: pointer;
 }
 
-a:active {
+.a:active {
     color: #24D1F8;
 }
+
