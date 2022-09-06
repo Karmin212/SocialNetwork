@@ -1,5 +1,4 @@
 ﻿import React from 'react';
-import AppSettings from './Item/AppSettings';
 import style from './Navbar.module.css';
 import Item from './Item/Item'
 
@@ -10,7 +9,7 @@ const Navbar = () => {
         <Item text='News' link='/news'/>
         <Item text='Subscriptions' link='/sub'/>
         <Item text='Messages' link='/dialogs'/>
-        <AppSettings />
+        <Item text='Settings' link='/appsettings'/>
         </nav>
     )
 }

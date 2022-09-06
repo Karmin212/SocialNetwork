@@ -13,7 +13,8 @@ const Posts = () => {
                 </div>
                 <button className={style.button}>Send</button>
                 <div className={style.content}>
-                    <Post text='Oh, hi Mark!' likeCount='5000000000'/>
+                    <Post text={["Thanks Dimych for his lessons. ", <a href='https://www.youtube.com/c/ITKAMASUTRA' style={{ textDecoration: 'none', color: '#24D1F8'}}>His youtube.</a>]} likeCount='1000000'/>
+                    <Post text='Oh, hi Mark!' likeCount='3000'/>
                     <Post text={`From fairest creatures we desire increase,
                                 That thereby beauty's rose might never die,
                                 But as the riper should by time decease,

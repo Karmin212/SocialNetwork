@@ -4,17 +4,25 @@
     margin: 5px;
 }
 
-.a {
+.settings {
+    margin-top: auto;
+    margin-bottom: 5px;
+}
+
+.item a {
     text-decoration: none;
+    color: black;
+}
+
+.item a:hover{
+    color: white;
 }
 
 .a:hover {
-    color: white;
     background-color: #24D1F8;
-    cursor: pointer;
 }
 
-.a:active {
+.item a:active {
     color: #24D1F8;
 }
 
