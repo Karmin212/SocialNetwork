@@ -1,0 +1,22 @@
+﻿.item {
+    display: flex;;
+    overflow: hidden;
+    height: 50px;
+    margin-left: 10%;
+    margin-bottom: 15px;
+}
+.ava {
+    margin-right: 20px;
+}
+.ava img{
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+}
+
+.text {
+    font-size: 20px;
+    text-align: left;
+    padding-top: 7px;
+    min-width: 50px;
+}

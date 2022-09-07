@@ -1,0 +1,8 @@
+﻿.messages {
+    border-top: 1px solid #24D1F8;
+    border-right: 1px solid #24D1F8;
+    border-bottom: 1px solid #24D1F8;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
