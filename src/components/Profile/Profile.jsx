@@ -2,11 +2,11 @@
 import React from 'react';
 import AvatarDiscription from './AvatarDiscription/AvatarDiscription';
 
-const Profile = () => {
+const Profile = (props) => {
     return (
         <div>
             <AvatarDiscription/>
-            <Posts/>
+            <Posts PostsData={props.PostsData}/>
         </div>
     )
 }

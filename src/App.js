@@ -8,7 +8,7 @@ import News from './components/News/News';
 import Profile from './components/Profile/Profile';
 import Sub from './components/Sub/Sub';
 
-function App() {
+const App = (props) => {
   return (
     <BrowserRouter>
       <div className='app-wrapper'>
@@ -17,10 +17,10 @@ function App() {
         <div className='app-wrapper-content'>
           <Routes>
             <Route path='' element={<Profile />} />
-            <Route path='/profile' element={<Profile />} />
+            <Route path='/profile' element={<Profile PostsData={props.PostsData}/>} />
             <Route path='/news' element={<News />} />
             <Route path='/sub' element={<Sub/>} />
-            <Route path='/dialogs/*' element={<Dialogs />} />
+            <Route path='/dialogs/*' element={<Dialogs MessagesData={props.MessagesData} DialogsData={props.DialogsData}/>} />
             <Route path='/appsettings' element={<AppSettings />} />
           </Routes>
         </div>
