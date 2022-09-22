@@ -6,8 +6,8 @@ import style from './Dialogs.module.css'
 const Dialogs = (props) => {
     return (
         <div className={style.dialogs}>
-            <Left_dialogs DialogsData={props.DialogsData}/>
-            <Right_messages MessagesData={props.MessagesData}/>
+            <Left_dialogs DialogsData={props.data.DialogsData}/>
+            <Right_messages MessagesData={props.data.MessagesData}/>
         </div>
     )
 }

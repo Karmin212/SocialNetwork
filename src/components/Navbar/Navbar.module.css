@@ -1,5 +1,8 @@
-﻿.nav {
-    grid-area: n;
+﻿.fastMenu{
+    grid-area: m;
+}
+
+.nav {
     background-color: #FFF2FE;
     padding-top: 10px;
     padding-bottom: 10px;

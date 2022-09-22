@@ -1,0 +1,16 @@
+﻿.icon img{
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+}
+
+.icon + .icon {
+    margin-left: 5px;
+  }
+
+.icon {
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+}

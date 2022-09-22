@@ -6,7 +6,7 @@ const Profile = (props) => {
     return (
         <div>
             <AvatarDiscription/>
-            <Posts PostsData={props.PostsData}/>
+            <Posts PostsData={props.data.PostsData}/>
         </div>
     )
 }
