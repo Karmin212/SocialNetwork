@@ -31,7 +31,6 @@
     padding: 0px;
     width: 100%;
     height: 100%;
-
 }
 
 .content {
@@ -40,7 +39,7 @@
     flex-direction: column;
 }
 
-.button {
+.posts button {
     background-color: #24D1F8;
     color: white;
     border: 0px;
@@ -52,7 +51,11 @@
     cursor: pointer;
 }
 
-.button:active {
+.posts button:hover {
+    cursor: pointer;
+}
+
+.posts button:active {
     color: #24D1F8;
 }
 

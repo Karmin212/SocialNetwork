@@ -1,8 +1,63 @@
-﻿.messages {
+﻿.Right_messages {
     border-top: 1px solid #24D1F8;
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+}
+
+.messages,
+.newMessage {
+    flex: auto 1;
+}
+
+.messages {
     border-right: 1px solid #24D1F8;
-    border-bottom: 1px solid #24D1F8;
     padding: 10px;
     display: flex;
     flex-direction: column;
+}
+
+
+
+.newMessage {
+    height: 100px;
+    margin-top: auto;
+    margin-bottom: 1px;
+    background-color: #FFF2FE;
+    width: 100%;
+}
+
+.messageArea {
+    height: 80px;
+    width: 95%;
+    margin: 10px;
+}
+
+.messageArea textarea {
+    outline: none;
+    -moz-appearance: none;
+    resize: none;
+    border-width: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.newMessage button {
+    float: right;
+    margin-right: 10px;
+    background-color: #24D1F8;
+    color: white;
+    border: 0px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.newMessage button:hover {
+    cursor: pointer;
+}
+
+.newMessage button:active {
+    color: #24D1F8;
 }
