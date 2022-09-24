@@ -2,7 +2,7 @@
 import React from 'react';
 import AvatarDiscription from './AvatarDiscription/AvatarDiscription';
 
-const Profile = (props) => {
+const Profile = (props) => {debugger;
     return (
         <div>
             <AvatarDiscription/>

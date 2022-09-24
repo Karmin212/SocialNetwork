@@ -1,9 +1,9 @@
 ﻿import React from 'react';
 import style from './Friends.module.css';
-import Item from './Item/Item';
+import Icon from './Icon/Icon';
 
 const Friends = (props) => {
-    let UsersFriends = props.data.map(f => <Item icon={f.icon}/>)
+    let UsersFriends = props.data.map(f => <Icon id={f.id} icon={f.icon}/>)
     return (
         <div className={style.friends}>
             <div className={style.title}>Friends</div>

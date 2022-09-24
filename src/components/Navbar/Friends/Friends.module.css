@@ -3,17 +3,17 @@
 .friends{
     background-color: #FFF2FE;
     margin-top: 30px;
-    height: 85px;  
+    height: 80px;  
     max-width: 135px;
 }
 
 .title{
     padding-top: 5px;
     font-family: 'Bebas Neue', cursive;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     color: #dfc1db;
-    height: 30px;
+    height: 25px;
 }
 
 .icons{

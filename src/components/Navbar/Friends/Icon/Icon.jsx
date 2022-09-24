@@ -1,7 +1,7 @@
 ﻿import React from 'react';
-import style from './Item.module.css';
+import style from './Icon.module.css';
 
-const Item = (props) => {
+const Icon = (props) => {
     return (
         <div className={style.icon}>
             <img src={props.icon}></img>
@@ -9,4 +9,4 @@ const Item = (props) => {
     )
 }
 
-export default Item;
+export default Icon;

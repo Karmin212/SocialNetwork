@@ -40,9 +40,9 @@
 
   fustMenu: {
     FriendsData: [
-      {icon: 'https://n1s1.hsmedia.ru/6b/e3/4a/6be34af2ebc9310ce7a37951eb062e3a/728x485_1_e93e65b549b74f838183ba0696058a6f@1200x800_0xac120003_8396543791615827348.jpg' },
-      {icon: 'https://static.mk.ru/upload/entities/2015/08/10/articles/detailPicture/6e/0c/65/829952131_3022582.jpg' },
-      {icon: 'https://usatiki.ru/wp-content/uploads/2019/10/yazyk-koshki-pod-mikroskopom.jpg' }
+      {id: 1, icon: 'https://n1s1.hsmedia.ru/6b/e3/4a/6be34af2ebc9310ce7a37951eb062e3a/728x485_1_e93e65b549b74f838183ba0696058a6f@1200x800_0xac120003_8396543791615827348.jpg' },
+      {id: 2, icon: 'https://static.mk.ru/upload/entities/2015/08/10/articles/detailPicture/6e/0c/65/829952131_3022582.jpg' },
+      {id: 3, icon: 'https://usatiki.ru/wp-content/uploads/2019/10/yazyk-koshki-pod-mikroskopom.jpg' }
     ]
   }
 
