@@ -4,13 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import state from './redux/State';
+import { addPostInState } from './redux/State';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const rerenderEntireTree = (state) =>{
 root.render(
   <React.StrictMode>
-    <App state={state}/>
+    <App state={state} addPostInState={addPostInState}/>
   </React.StrictMode>
 );
+}
+
+rerenderEntireTree(state);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

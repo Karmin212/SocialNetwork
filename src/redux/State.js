@@ -1,4 +1,10 @@
-﻿let state = {
+﻿import { startTransition } from "react";
+
+let rerenderEntireTree= () => {
+  console.log("update")
+}
+
+let state = {
   profilePage: {
     PostsData: [
       { id: 1, text: ['Thanks Dimych for his lessons. ', <a href='https://www.youtube.com/c/ITKAMASUTRA' style={{ textDecoration: 'none', color: '#24D1F8' }}>His youtube.</a>], likeCount: 300 },
@@ -45,7 +51,16 @@
       {id: 3, icon: 'https://usatiki.ru/wp-content/uploads/2019/10/yazyk-koshki-pod-mikroskopom.jpg' }
     ]
   }
+}
 
+export let addPostInState = (text) => {
+  let newPost = {
+    id: 4,
+    text: text,
+    likeCount: 0
+  };
+  state.profilePage.PostsData.push(newPost);
+  rerenderEntireTree(state);
 }
 
 export default state;
